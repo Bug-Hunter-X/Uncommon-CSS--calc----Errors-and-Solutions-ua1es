@@ -1,0 +1,32 @@
+/* bugSolution.css */
+
+.correct-calc {
+  width: calc(100% - 10px);
+}
+
+.correct-nesting {
+  width: calc(calc(50% - 10px) + 20px);
+}
+
+.correct-spacing {
+  height: calc( 100px + 20px );
+}
+
+.correct-order {
+  margin: calc( (10px + 20px) / 2);
+}
+
+.correct-semicolon {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/*  Additional examples demonstrating best practices */
+
+.best-practice-1 {
+  width: calc(100vw - 2rem);
+}
+
+.best-practice-2 {
+  height: calc(50vh - 10px);
+} 
